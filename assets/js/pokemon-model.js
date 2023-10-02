@@ -1,4 +1,3 @@
-// Cod do prof
 
 class Pokemon {
     number;
@@ -6,4 +5,8 @@ class Pokemon {
     type;
     types = [];
     photo;
-}
+    height;
+    weight;
+    abilities = [];
+    baseStats = [];
+  }
