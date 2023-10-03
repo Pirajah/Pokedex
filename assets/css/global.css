@@ -49,7 +49,7 @@ body {
     width: 100%;
     min-height: 100vh;
     padding: 1rem;
-    background-color: #fff;
+
   }
   
   button:hover{ 
@@ -60,7 +60,7 @@ body {
   tr,
   th,
   td {
-    border: none;
+    border:aqua;
   }
     
   .atribuições {

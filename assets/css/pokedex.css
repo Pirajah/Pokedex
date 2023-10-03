@@ -197,7 +197,7 @@
   .pokemonDialogCard .about .top .closeDialogCard {
     border: none;
     background-color: transparent;
-    color: #fff;
+    color: #f4ff57;
     font-size: 1.5em;
   }
   
@@ -213,7 +213,7 @@
   }
   
   .pokemonDialogCard .baseStatsTable .tableHeader {
-    background: linear-gradient(to right, #000 0%, var(--color) 100%);
+    background: linear-gradient(to right, #000000 0%, var(--color) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -239,7 +239,7 @@
   }
   
   .pokemonDialogCard .aboutTable .display {
-    width: 19ch;
+    width: 20ch;
     text-align: right;
   } 
   
@@ -261,18 +261,17 @@
   .pagination button {
     padding: .25rem .5rem;
     margin: .25rem 0;
-    background-color: #413ef8fa;
+    background-color: #58ecfffa;
     border: none;
     border-radius: 1rem;
     box-shadow: 2px -2px 6px #000;
-    color: #fff;
+    color: #000000;
     font-size: .625rem;
     transition: transform 100ms ease-in-out;
   }
   
   .pagination button:hover {
-    cursor: pointer;
-    transform: scale(1.05, 1.05);
+        transform: scale(2, 2);
   }
   
   @media screen and (min-width: 380px) {
