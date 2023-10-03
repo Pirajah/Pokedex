@@ -94,6 +94,7 @@ function loadPokemonItens(offset, limit) {
         liElement.addEventListener('click', () => showPokemonDialogCard(liElement.id))
       })
     })
+
 }
 
 loadPokemonItens(offset, limit)

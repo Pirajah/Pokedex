@@ -3,7 +3,8 @@ const pokeApi = {}
 
 function convertPokeApiDetailToPokemon(pokeDetail) {
   const pokemon = new Pokemon()
-  //list
+  
+  //listagem
   pokemon.number = pokeDetail.id
   pokemon.name = pokeDetail.name
 
@@ -16,7 +17,7 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
   pokemon.photo = pokeDetail.sprites.other.dream_world.front_default
   //end list
 
-  //card
+  //card de stats
   pokemon.height = pokeDetail.height;
   pokemon.weight = pokeDetail.weight;
 
@@ -27,11 +28,11 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
       stat : statsItem.base_stat,
     }
   });
-  //end card
+  // end card de stats
 
   return pokemon
 }
-
+//fetch api
 pokeApi.getPokemonDetail = (pokemon) => {
   return fetch(pokemon.url)
     .then((response) => response.json())
@@ -55,3 +56,4 @@ pokeApi.getPokemon = (pokemonId = '') => {
     .then(response => response.json())
     .then(convertPokeApiDetailToPokemon)
 }
+//

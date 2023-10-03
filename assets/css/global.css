@@ -57,32 +57,30 @@ body {
     cursor: pointer;
   }
   
-  table,
+  /* table,
   tr,
   th,
   td {
     border: none;
-  }
+  } */
   
-  .attribution {
+  .atribuições {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
-    padding: 0 1rem;
-    height: 5rem;
-    background-color: #263239;
-    color: #feca2b;
+    gap: 0.5rem;
+    height: 2rem;
+    background-color: #4bbdff;
+    color: #000000;
     font-size: 1rem;
   }
   
-  .attribution a,
-  .attribution a:link {
+  .atribuições a:link {
     font-style: italic;
     color: inherit;
   }
   
-  .attribution a {
+  .atribuições a {
     height: 100%;
     scroll-snap-align: inherit;
   }
