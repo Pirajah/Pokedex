@@ -29,7 +29,6 @@ body {
     padding: 1rem;
     background-color: #3eb6fc;
     border-radius: 1rem;
-    /* color: #fff; */
     text-align: center;
   }
   
@@ -53,16 +52,16 @@ body {
     background-color: #fff;
   }
   
-  button:hover {
-    cursor: pointer;
-  }
-  
-  /* table,
+  button:hover{ 
+    cursor: url(https://cur.cursors-4u.net/games/gam-13/gam1282.cur), auto !important;
+    }
+    
+  table,
   tr,
   th,
   td {
     border: none;
-  } */
+  }
   
   .atribuições {
     display: flex;

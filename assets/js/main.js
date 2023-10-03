@@ -25,7 +25,7 @@ function convertPokemonToDialogCard(pokemon) {
   return `
     <div class="about">
       <div class="top">
-        <button class="closeDialogCard" type="button" onclick="closePokemonDialogCard()">&#8592;</button>
+        <button class="closeDialogCard" type="button" onclick="closePokemonDialogCard()"> Return </button>
         <span class="number">#${pokemon.number.toString().padStart(3,'0')}</span>
       </div>
       <img src="${pokemon.photo}" alt="${pokemon.name}">
@@ -77,7 +77,7 @@ function showPokemonDialogCard(pokemonId) {
   })
   .then(pokemonDialog => pokemonDialogCard.innerHTML = pokemonDialog)
   .then(() => pokemonDialogCard.showModal())
-
+  
 }
 
 function closePokemonDialogCard() { pokemonDialogCard.close() }

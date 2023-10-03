@@ -91,7 +91,7 @@
   }
   
   .pokemon:hover {
-    cursor: pointer;
+    cursor: url(https://cur.cursors-4u.net/games/gam-13/gam1282.cur), auto !important;
     transform: scale(1.05, 1.05);
   }
   
