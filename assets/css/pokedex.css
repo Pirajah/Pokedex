@@ -3,7 +3,8 @@
     grid-template-columns: 1fr;
     gap: 1rem;
     margin-top: 5.5rem;
-  }
+    
+ }
   
   .normal {
     --color: #a6a877;
@@ -78,6 +79,8 @@
   }
   
   .pokemon {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     padding: 1rem;
